@@ -1,1 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <button id="all" onclick="fullNamelist()">Print All people details</button> <br /><br />
+  <label>Enter the first name:
+    <input type="text" id="name-input" size="20"> </label>
+  <button id="age-button" onclick="getAge()">Get Age</button>
+  <br /><br />
+  <div id="solution"></div>
+  <div id="solution1"></div>
+</body>
+
+<script type="text/javascript" src="myscript.js">
+
+</script>
+
+</html>
